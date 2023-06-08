@@ -6,7 +6,7 @@ bootstrap = Bootstrap(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('sitio/index.html')
 
 @app.route('/registro_admin/')
 def registro_admin():
