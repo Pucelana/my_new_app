@@ -8,6 +8,10 @@ bootstrap = Bootstrap(app)
 def index():
     return render_template('index.html')
 
+@app.route('/registro_admin/')
+def registro_admin():
+    return render_template('sitio/registro_admin.html')
+
 if __name__ == 'main':
     app.run()
 
